@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --surface: #141414;
+  --surface-high: #1a1a1a;
+  --primary: #006ff0;
+  --primary-glow: rgba(0, 111, 240, 0.15);
+  --secondary: #aec6ff;
+  --muted: #888888;
+  --ghost-border: rgba(255, 255, 255, 0.06);
+  --glass-bg: rgba(38, 38, 38, 0.6);
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-high: var(--surface-high);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-[var(--glass-bg)] backdrop-blur-[20px] border border-[var(--ghost-border)];
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px var(--primary-glow);
+  }
+  
+  .bg-glow {
+    background: radial-gradient(circle at center, var(--primary-glow) 0%, transparent 70%);
+  }
+}
