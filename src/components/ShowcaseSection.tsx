@@ -18,7 +18,7 @@ const features = [
     badge: "Hands-Free Navigation",
     title: "Hands-Free Digital Accessibility.",
     description: "Navigate the entire internet without touching your mouse or keyboard. Speak your intent, and Aera translates it into native browser actions directly through the accessibility tree for instant execution.",
-    image: "/ss3.png",
+    image: "/ss2.png",
     imageAlt: "Aera Browser with active voice-waveform visualizer responding to a navigation command.",
     isReversed: true,
     icon: <MessageSquare className="text-secondary w-8 h-8" />
@@ -27,7 +27,7 @@ const features = [
     badge: "Autonomous Systems",
     title: "Proactive Background Agents.",
     description: "Transform your browser into a 24/7 worker. Deploy independent agents to monitor the web, extract data, and alert you only when your exact goal is met—from price trackers to daily news blogs.",
-    image: "/ss4.png",
+    image: "/ss3.png",
     imageAlt: "Aera's Autonomous Workflows Dashboard showing active monitoring tasks and status badges.",
     isReversed: false,
     icon: <Zap className="text-primary w-8 h-8" />
@@ -36,7 +36,7 @@ const features = [
     badge: "Intelligence & RAG",
     title: "Cross-Tab Vector Synthesis.",
     description: "Stop copying and pasting. Aera’s local memory engine reads and understands all of your open tabs simultaneously to perform deep, multi-source research into a single, unified answer.",
-    image: "/ss2.png",
+    image: "/ss4.png",
     imageAlt: "Aera Browser generating a unified research report from multiple open tabs using local RAG.",
     isReversed: true,
     icon: <Cpu className="text-secondary w-8 h-8" />
